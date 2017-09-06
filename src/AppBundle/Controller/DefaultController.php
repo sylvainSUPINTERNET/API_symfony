@@ -8,6 +8,8 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Form\Extension\Core\Type\TextType;
+use Symfony\Component\Form\Extension\Core\Type\EmailType;
+use Symfony\Component\Form\Extension\Core\Type\NumberType;
 use Symfony\Component\Form\Extension\Core\Type\SubmitType;
 use AppBundle\Entity\User;
 
@@ -42,13 +44,12 @@ class DefaultController extends Controller
 
         $form = $this->createFormBuilder($user)
             ->add('username', TextType::class)
-            ->add('age', TextType::class)
-            ->add('email', TextType::class)
+            ->add('age', NumberType::class)
+            ->add('email', EmailType::class)
             ->add('save', SubmitType::class, array('label' => 'Create User'))
             ->getForm();
 
         $form->handleRequest($request);
-
 
 
         //Get data forward controller POST creat euser de l'api et creer
@@ -56,18 +57,15 @@ class DefaultController extends Controller
         //FORWARD
         // https://symfony.com/doc/current/controller/forwarding.html
 
+
         if ($form->isSubmitted() && $form->isValid()) {
-            // $form->getData() holds the submitted values
-            // but, the original `$task` variable has also been updated
-            $task = $form->getData();
 
-            // ... perform some action, such as saving the task to the database
-            // for example, if Task is a Doctrine entity, save it!
-            // $em = $this->getDoctrine()->getManager();
-            // $em->persist($task);
-            // $em->flush();
+            $newUser = $form->getData();
+            $this->addUserByFormAction($newUser);
 
-            return $this->redirectToRoute('task_success');
+            return $this->redirectToRoute('user_show', array('last_user_created' => $newUser));
+
+
         }
 
         return $this->render('UserFormBundle:AddUserForm:form_add_user.html.twig', array(
@@ -143,4 +141,40 @@ class DefaultController extends Controller
 
 
     //POST
+
+    /**
+     * @Route("/user/addUser", name="user_add_user_by_form")
+     */
+
+    public function addUserByFormAction($newUser)
+    {
+
+        $em = $this->getDoctrine()->getManager();
+        $em->persist($newUser);
+        $em->flush();
+
+
+        return new JsonResponse($newUser);
+    }
+
+
+    /**
+     * @Route("/user/show", name="user_show")
+     */
+
+    public function showAllUser(Request $request)
+    {
+//select *
+
+        $users = $this->getDoctrine()->getRepository(User::class)->findAll();
+
+        $formatted = [];
+
+        var_dump($users);
+
+        return new JsonResponse($users);
+
+    }
+
+
 }
