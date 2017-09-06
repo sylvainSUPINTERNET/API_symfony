@@ -1,0 +1,8 @@
+user_form:
+    resource: "@UserFormBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation

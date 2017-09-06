@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7990439e-ffd8-4a95-b3c0-fb3d82e76c03" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="my_api" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="55" column="17" lean-forward="false" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+              <folding>
+                <element signature="e#40#99#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form_add_user.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/UserFormBundle/Resources/views/AddUserForm/form_add_user.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppKernel.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="17" column="47" lean-forward="false" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+              <folding>
+                <marker date="1504540081590" expanded="true" signature="172:1408" ph="{...}" />
+                <marker date="1504540081590" expanded="true" signature="199:808" ph="..." />
+                <marker date="1504540081590" expanded="true" signature="883:1375" ph="..." />
+                <marker date="1504540081590" expanded="true" signature="1181:1365" ph="..." />
+                <marker date="1504540081590" expanded="true" signature="1442:1478" ph="{...}" />
+                <marker date="1504540081590" expanded="true" signature="1513:1596" ph="{...}" />
+                <marker date="1504540081590" expanded="true" signature="1629:1686" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+              <folding>
+                <marker date="1504540081607" expanded="true" signature="0:109" ph="imports: &lt;3 items&gt;" />
+                <marker date="1504540081607" expanded="true" signature="371:397" ph="parameters: &lt;1 key&gt;" />
+                <marker date="1504540081607" expanded="true" signature="395:397" ph="en" />
+                <marker date="1504540081607" expanded="true" signature="399:1139" ph="framework: &lt;15 keys&gt;" />
+                <marker date="1504540081607" expanded="true" signature="426:465" ph="translator: {1 key}" />
+                <marker date="1504540081607" expanded="true" signature="440:463" ph="fallbacks: [1 item]" />
+                <marker date="1504540081607" expanded="true" signature="452:462" ph="%locale%" />
+                <marker date="1504540081607" expanded="true" signature="478:488" ph="%secret%" />
+                <marker date="1504540081607" expanded="true" signature="493:595" ph="router: &lt;2 keys&gt;" />
+                <marker date="1504540081607" expanded="true" signature="519:564" ph="%kernel.p…outing.yml" />
+                <marker date="1504540081607" expanded="true" signature="635:675" ph="validation: {1 key}" />
+                <marker date="1504540081607" expanded="true" signature="669:673" ph="true" />
+                <marker date="1504540081607" expanded="true" signature="680:720" ph="serializer: {1 key}" />
+                <marker date="1504540081607" expanded="true" signature="714:718" ph="true" />
+                <marker date="1504540081607" expanded="true" signature="725:762" ph="templating: &lt;1 key&gt;" />
+                <marker date="1504540081607" expanded="true" signature="745:762" ph="engines: [1 item]" />
+                <marker date="1504540081607" expanded="true" signature="755:761" ph="twig" />
+                <marker date="1504540081607" expanded="true" signature="783:793" ph="%locale%" />
+                <marker date="1504540081607" expanded="true" signature="819:1043" ph="session: &lt;2 keys&gt;" />
+                <marker date="1504540081607" expanded="true" signature="940:967" ph="session.h…ative_file" />
+                <marker date="1504540081607" expanded="true" signature="987:1043" ph="%kernel.p…vironment%" />
+                <marker date="1504540081607" expanded="true" signature="1087:1091" ph="true" />
+                <marker date="1504540081607" expanded="true" signature="1110:1139" ph="php_errors: &lt;1 key&gt;" />
+                <marker date="1504540081607" expanded="true" signature="1135:1139" ph="true" />
+                <marker date="1504540081607" expanded="true" signature="1162:1234" ph="twig: &lt;2 keys&gt;" />
+                <marker date="1504540081607" expanded="true" signature="1179:1195" ph="%kernel.debug%" />
+                <marker date="1504540081607" expanded="true" signature="1218:1234" ph="%kernel.debug%" />
+                <marker date="1504540081607" expanded="true" signature="1261:1964" ph="doctrine: &lt;2 keys&gt;" />
+                <marker date="1504540081607" expanded="true" signature="1275:1498" ph="dbal: &lt;7 keys&gt;" />
+                <marker date="1504540081607" expanded="true" signature="1297:1306" ph="pdo_mysql" />
+                <marker date="1504540081607" expanded="true" signature="1321:1338" ph="%database_host%" />
+                <marker date="1504540081607" expanded="true" signature="1353:1370" ph="%database_port%" />
+                <marker date="1504540081607" expanded="true" signature="1419:1436" ph="%database_user%" />
+                <marker date="1504540081607" expanded="true" signature="1455:1476" ph="%database_password%" />
+                <marker date="1504540081607" expanded="true" signature="1494:1498" ph="UTF8" />
+                <marker date="1504540081607" expanded="true" signature="1814:1964" ph="orm: &lt;3 keys&gt;" />
+                <marker date="1504540081607" expanded="true" signature="1856:1872" ph="%kernel.debug%" />
+                <marker date="1504540081607" expanded="true" signature="1898:1937" ph="doctrine.…underscore" />
+                <marker date="1504540081607" expanded="true" signature="1960:1964" ph="true" />
+                <marker date="1504540081607" expanded="true" signature="2022:2042" ph="%mailer_transport%" />
+                <marker date="1504540081607" expanded="true" signature="2053:2068" ph="%mailer_host%" />
+                <marker date="1504540081607" expanded="true" signature="2083:2098" ph="%mailer_user%" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-850">
+              <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/AppKernel.php" />
+        <option value="$PROJECT_DIR$/app/config/config.yml" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/src/UserFormBundle/Resources/views/AddUserForm/form_add_user.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1320" />
+    <option name="height" value="780" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_api" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_api" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_api" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UserFormBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_api" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UserFormBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_api" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UserFormBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AddUserForm" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_api" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UserFormBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7990439e-ffd8-4a95-b3c0-fb3d82e76c03" name="Default" comment="" />
+      <created>1504537468385</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1504537468385</updated>
+      <workItem from="1504537469819" duration="545000" />
+      <workItem from="1504538028552" duration="3723000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4268000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1320" height="780" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2579365" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#40#99#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#40#99#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="47" lean-forward="false" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+          <folding>
+            <marker date="1504540081590" expanded="true" signature="172:1408" ph="{...}" />
+            <marker date="1504540081590" expanded="true" signature="199:808" ph="..." />
+            <marker date="1504540081590" expanded="true" signature="883:1375" ph="..." />
+            <marker date="1504540081590" expanded="true" signature="1181:1365" ph="..." />
+            <marker date="1504540081590" expanded="true" signature="1442:1478" ph="{...}" />
+            <marker date="1504540081590" expanded="true" signature="1513:1596" ph="{...}" />
+            <marker date="1504540081590" expanded="true" signature="1629:1686" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+          <folding>
+            <marker date="1504540081607" expanded="true" signature="0:109" ph="imports: &lt;3 items&gt;" />
+            <marker date="1504540081607" expanded="true" signature="371:397" ph="parameters: &lt;1 key&gt;" />
+            <marker date="1504540081607" expanded="true" signature="395:397" ph="en" />
+            <marker date="1504540081607" expanded="true" signature="399:1139" ph="framework: &lt;15 keys&gt;" />
+            <marker date="1504540081607" expanded="true" signature="426:465" ph="translator: {1 key}" />
+            <marker date="1504540081607" expanded="true" signature="440:463" ph="fallbacks: [1 item]" />
+            <marker date="1504540081607" expanded="true" signature="452:462" ph="%locale%" />
+            <marker date="1504540081607" expanded="true" signature="478:488" ph="%secret%" />
+            <marker date="1504540081607" expanded="true" signature="493:595" ph="router: &lt;2 keys&gt;" />
+            <marker date="1504540081607" expanded="true" signature="519:564" ph="%kernel.p…outing.yml" />
+            <marker date="1504540081607" expanded="true" signature="635:675" ph="validation: {1 key}" />
+            <marker date="1504540081607" expanded="true" signature="669:673" ph="true" />
+            <marker date="1504540081607" expanded="true" signature="680:720" ph="serializer: {1 key}" />
+            <marker date="1504540081607" expanded="true" signature="714:718" ph="true" />
+            <marker date="1504540081607" expanded="true" signature="725:762" ph="templating: &lt;1 key&gt;" />
+            <marker date="1504540081607" expanded="true" signature="745:762" ph="engines: [1 item]" />
+            <marker date="1504540081607" expanded="true" signature="755:761" ph="twig" />
+            <marker date="1504540081607" expanded="true" signature="783:793" ph="%locale%" />
+            <marker date="1504540081607" expanded="true" signature="819:1043" ph="session: &lt;2 keys&gt;" />
+            <marker date="1504540081607" expanded="true" signature="940:967" ph="session.h…ative_file" />
+            <marker date="1504540081607" expanded="true" signature="987:1043" ph="%kernel.p…vironment%" />
+            <marker date="1504540081607" expanded="true" signature="1087:1091" ph="true" />
+            <marker date="1504540081607" expanded="true" signature="1110:1139" ph="php_errors: &lt;1 key&gt;" />
+            <marker date="1504540081607" expanded="true" signature="1135:1139" ph="true" />
+            <marker date="1504540081607" expanded="true" signature="1162:1234" ph="twig: &lt;2 keys&gt;" />
+            <marker date="1504540081607" expanded="true" signature="1179:1195" ph="%kernel.debug%" />
+            <marker date="1504540081607" expanded="true" signature="1218:1234" ph="%kernel.debug%" />
+            <marker date="1504540081607" expanded="true" signature="1261:1964" ph="doctrine: &lt;2 keys&gt;" />
+            <marker date="1504540081607" expanded="true" signature="1275:1498" ph="dbal: &lt;7 keys&gt;" />
+            <marker date="1504540081607" expanded="true" signature="1297:1306" ph="pdo_mysql" />
+            <marker date="1504540081607" expanded="true" signature="1321:1338" ph="%database_host%" />
+            <marker date="1504540081607" expanded="true" signature="1353:1370" ph="%database_port%" />
+            <marker date="1504540081607" expanded="true" signature="1419:1436" ph="%database_user%" />
+            <marker date="1504540081607" expanded="true" signature="1455:1476" ph="%database_password%" />
+            <marker date="1504540081607" expanded="true" signature="1494:1498" ph="UTF8" />
+            <marker date="1504540081607" expanded="true" signature="1814:1964" ph="orm: &lt;3 keys&gt;" />
+            <marker date="1504540081607" expanded="true" signature="1856:1872" ph="%kernel.debug%" />
+            <marker date="1504540081607" expanded="true" signature="1898:1937" ph="doctrine.…underscore" />
+            <marker date="1504540081607" expanded="true" signature="1960:1964" ph="true" />
+            <marker date="1504540081607" expanded="true" signature="2022:2042" ph="%mailer_transport%" />
+            <marker date="1504540081607" expanded="true" signature="2053:2068" ph="%mailer_host%" />
+            <marker date="1504540081607" expanded="true" signature="2083:2098" ph="%mailer_user%" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-850">
+          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UserFormBundle/Resources/views/AddUserForm/form_add_user.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="55" column="17" lean-forward="false" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+          <folding>
+            <element signature="e#40#99#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
