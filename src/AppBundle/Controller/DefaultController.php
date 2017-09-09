@@ -11,7 +11,10 @@ use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Component\Form\Extension\Core\Type\EmailType;
 use Symfony\Component\Form\Extension\Core\Type\NumberType;
 use Symfony\Component\Form\Extension\Core\Type\SubmitType;
+use Symfony\Bridge\Doctrine\Form\Type\EntityType;
+use Symfony\Component\Form\Extension\Core\Type\FileType;
 use AppBundle\Entity\User;
+
 
 class DefaultController extends Controller
 {
@@ -46,6 +49,10 @@ class DefaultController extends Controller
             ->add('username', TextType::class)
             ->add('age', NumberType::class)
             ->add('email', EmailType::class)
+            ->add('job', EntityType::class, array(
+                'class' => 'AppBundle:Job',
+                'choice_label' => 'name',
+            ))
             ->add('save', SubmitType::class, array('label' => 'Create User'))
             ->getForm();
 
@@ -60,7 +67,10 @@ class DefaultController extends Controller
 
         if ($form->isSubmitted() && $form->isValid()) {
 
+
             $newUser = $form->getData();
+
+
             $this->addUserByFormAction($newUser);
 
             return $this->redirectToRoute('user_show', array('last_user_created' => $newUser));
@@ -120,11 +130,20 @@ class DefaultController extends Controller
 
         $userToSearch = $username;
 
+        //Return tableau d'objet donc foreach pour acceder au objet et au relation
         $user = $this->getDoctrine()->getRepository(User::class)->findBy(array(
             'username' => $userToSearch,
         ));
 
+
+
         $formatted = [];
+
+        if($user == null){
+            $formatted[] = [
+                "erreur" => $username. " existe pas ! ",
+            ];
+        }
 
         foreach ($user as $userFind) {
             $formatted[] = [
@@ -132,6 +151,7 @@ class DefaultController extends Controller
                 'username' => $userFind->getUsername(),
                 'email' => $userFind->getEmail(),
                 'age' => $userFind->getAge(),
+                'job' => $userFind->getJob()->getName() //OneToMany
             ];
         }
 
@@ -149,6 +169,7 @@ class DefaultController extends Controller
     public function addUserByFormAction($newUser)
     {
 
+
         $em = $this->getDoctrine()->getManager();
         $em->persist($newUser);
         $em->flush();
@@ -164,15 +185,34 @@ class DefaultController extends Controller
 
     public function showAllUser(Request $request)
     {
-//select *
+
 
         $users = $this->getDoctrine()->getRepository(User::class)->findAll();
 
         $formatted = [];
 
-        var_dump($users);
 
-        return new JsonResponse($users);
+        foreach($users as $data){
+            if($data->getJob() == null ){
+                $formatted[] = [
+                    'name' => $data->getUsername(),
+                    'email' => $data->getEmail(),
+                    'age' => $data->getAge(),
+                    'job' => "Aucun emploi",
+                ];
+            }else{
+                $formatted[] = [
+                    'name' => $data->getUsername(),
+                    'email' => $data->getEmail(),
+                    'age' => $data->getAge(),
+                    'job' => $data->getJob()->getName(),
+                ];
+            }
+
+        }
+
+
+        return new JsonResponse($formatted);
 
     }
 

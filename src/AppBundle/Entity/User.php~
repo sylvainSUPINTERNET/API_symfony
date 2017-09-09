@@ -3,12 +3,17 @@
 namespace AppBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Doctrine\Common\Collections\ArrayCollection;
+
+use Symfony\Component\Validator\Constraints as Assert;
+
 
 /**
  * User
  *
  * @ORM\Table(name="user")
  * @ORM\Entity(repositoryClass="AppBundle\Repository\UserRepository")
+ * @ORM\HasLifecycleCallbacks()
  */
 class User
 {
@@ -41,6 +46,20 @@ class User
      * @ORM\Column(name="age", type="string", length=255)
      */
     private $age;
+
+    /**
+     * @ORM\Column(type="datetime", name="creation_date")
+     */
+    private $creation_date;
+
+
+    /**
+     * Many Features have One Product.
+     * @ORM\ManyToOne(targetEntity="Job", inversedBy="users")
+     * @ORM\JoinColumn(name="job_id", referencedColumnName="id")
+     */
+    private $job;
+
 
 
     /**
@@ -124,5 +143,93 @@ class User
     {
         return $this->age;
     }
-}
 
+    /**
+     * Set job
+     *
+     * @param \AppBundle\Entity\Job $job
+     *
+     * @return User
+     */
+    public function setJob(\AppBundle\Entity\Job $job = null)
+    {
+        $this->job = $job;
+
+        return $this;
+    }
+
+    /**
+     * Get job
+     *
+     * @return \AppBundle\Entity\Job
+     */
+    public function getJob()
+    {
+        return $this->job;
+    }
+
+
+    //WHEN PERSISTED, callback execute
+
+
+    /**
+     * @ORM\PrePersist
+     */
+    public function setStatistique()
+    {
+
+
+        $this->creation_date = new \DateTime("now");
+
+        return $this->creation_date;
+
+    }
+
+    /**
+     * Set creationDate
+     *
+     * @param \DateTime $creationDate
+     *
+     * @return User
+     */
+    public function setCreationDate($creationDate)
+    {
+        $this->creation_date = $creationDate;
+
+        return $this;
+    }
+
+    /**
+     * Get creationDate
+     *
+     * @return \DateTime
+     */
+    public function getCreationDate()
+    {
+        return $this->creation_date;
+    }
+
+    /**
+     * Set profilePicture
+     *
+     * @param string $profilePicture
+     *
+     * @return User
+     */
+    public function setProfilePicture($profilePicture)
+    {
+        $this->profile_picture = $profilePicture;
+
+        return $this;
+    }
+
+    /**
+     * Get profilePicture
+     *
+     * @return string
+     */
+    public function getProfilePicture()
+    {
+        return $this->profile_picture;
+    }
+}
